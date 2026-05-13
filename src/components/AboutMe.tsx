@@ -53,7 +53,7 @@ export default function AboutMe() {
               background: "var(--bg-elevated)"
             }}>
               <Image 
-                src="/profile/lucas-edited.png" 
+                src="/profile/lucas-edited.webp" 
                 alt="Lucas Ibarra"
                 fill
                 style={{ objectFit: "cover", objectPosition: "center top" }}
