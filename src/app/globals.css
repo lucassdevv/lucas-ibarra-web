@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap");
 
 @import "tailwindcss";
 
@@ -45,7 +44,7 @@ html {
 body {
   background-color: var(--bg-base);
   color: var(--text-primary);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-inter), sans-serif;
 }
 
 /* ── Scrollbar ───────────────────────────────────────────────── */
@@ -55,7 +54,7 @@ body {
 
 /* ── Typography ──────────────────────────────────────────────── */
 h1, h2, h3, h4 {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: var(--font-space-grotesk), sans-serif;
   letter-spacing: -0.02em;
   line-height: 1.15;
 }
@@ -155,7 +154,7 @@ h1, h2, h3, h4 {
   padding: 16px 32px;
   background: linear-gradient(135deg, #2563eb, #3b82f6);
   color: #fff;
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: var(--font-space-grotesk), sans-serif;
   font-weight: 700;
   font-size: 1.05rem;
   border-radius: 12px;
@@ -186,7 +185,7 @@ h1, h2, h3, h4 {
   padding: 12px 24px;
   background: transparent;
   color: var(--text-secondary);
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font-inter), sans-serif;
   font-weight: 500;
   font-size: 0.95rem;
   border-radius: 10px;
@@ -288,7 +287,7 @@ h1, h2, h3, h4 {
 
 /* ── Stat Counter ────────────────────────────────────────────── */
 .stat-number {
-  font-family: 'Space Grotesk', sans-serif;
+  font-family: var(--font-space-grotesk), sans-serif;
   font-weight: 800;
   background: linear-gradient(135deg, #60a5fa, #818cf8);
   -webkit-background-clip: text;
