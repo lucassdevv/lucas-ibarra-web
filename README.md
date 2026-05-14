@@ -1,42 +1,27 @@
-# Lucas Ibarra - Portfolio & Boutique Tech Agency
+# Lucas Ibarra - Soluciones Digitales
 
-Sitio web profesional para Lucas Ibarra, enfocado en servicios de desarrollo web rápido y automatización con IA.
+¡Bienvenido al código fuente de mi agencia boutique de tecnología! 
 
-## Tecnologías
+Soy Lucas Ibarra, desarrollador Full Stack basado en la V Región, Chile. Mi enfoque está en ayudar a pymes y negocios locales a digitalizarse, abandonar los procesos manuales y escalar mediante tecnología de punta.
 
-- **Framework**: [Next.js 15](https://nextjs.org/)
+## 🚀 Sobre este proyecto
+
+Este repositorio contiene el código de mi portafolio profesional y página de aterrizaje (Landing Page), diseñada para cargar a la máxima velocidad y ofrecer una experiencia de usuario premium. 
+
+### Servicios Principales
+- **Webs Ultra-Rápidas**: Landing pages optimizadas para SEO y conversiones.
+- **Sistemas a Medida (ERP / CRM)**: Desarrollo de software complejo para digitalizar operaciones.
+- **Automatización con IA**: Creación de chatbots y automatización de flujos de trabajo (n8n, Make).
+
+## 🛠️ Stack Tecnológico
+
+El sitio está construido con las mejores prácticas de rendimiento moderno:
+
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
 - **Estilos**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Optimización**: Imágenes en formato WebP y carga de fuentes inyectadas nativamente (`next/font`).
 - **Iconos**: [Lucide React](https://lucide.dev/)
-- **Despliegue**: [Vercel](https://vercel.com/)
+- **Despliegue**: [Vercel](https://vercel.com/) Edge Network
 
-## Desarrollo Local
-
-Primero, instala las dependencias:
-
-```bash
-npm install
-```
-
-Luego, corre el servidor de desarrollo:
-
-```bash
-npm run dev
-```
-
-Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
-
-## Despliegue en Vercel
-
-La forma más fácil de desplegar es usando la integración de GitHub con Vercel.
-
-1. Crea un repositorio en GitHub.
-2. Sube tu código:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git branch -M main
-   git remote add origin https://github.com/TU_USUARIO/TU_REPO.git
-   git push -u origin main
-   ```
-3. Conecta el repo en [vercel.com](https://vercel.com).
+---
+*Si quieres saber más sobre mi trabajo, visita [lucasibarra.cl](https://lucasibarra.cl) o contáctame directamente a hola@lucasibarra.cl*
