@@ -145,7 +145,7 @@ export default function PainPoints() {
                   width: "fit-content"
                 }}>
                   <span style={{
-                    fontFamily: "'Space Grotesk', sans-serif",
+                    fontFamily: "var(--font-space-grotesk), sans-serif",
                     fontSize: "1.6rem",
                     fontWeight: 800,
                     color: point.accent,

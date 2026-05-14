@@ -61,7 +61,7 @@ export default function Process() {
                 fontWeight: 900,
                 color: "rgba(255,255,255,0.02)",
                 lineHeight: 1,
-                fontFamily: "'Space Grotesk', sans-serif",
+                fontFamily: "var(--font-space-grotesk), sans-serif",
                 pointerEvents: "none"
               }}>
                 {step.number}

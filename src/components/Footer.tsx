@@ -77,7 +77,7 @@ export default function Footer() {
           <div style={{ gridColumn: "span 1" }} className="footer-brand">
             <div style={{ marginBottom: "20px" }}>
               <div style={{
-                fontFamily: "'Space Grotesk', sans-serif",
+                fontFamily: "var(--font-space-grotesk), sans-serif",
                 fontWeight: 800,
                 fontSize: "1.4rem",
                 color: "var(--text-primary)",

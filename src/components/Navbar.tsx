@@ -30,7 +30,7 @@ export default function Navbar() {
         <Link href="/" style={{ textDecoration: "none", flexShrink: 0 }}>
           <div style={{ display: "flex", flexDirection: "column", lineHeight: 1.1 }}>
             <span style={{
-              fontFamily: "'Space Grotesk', sans-serif",
+              fontFamily: "var(--font-space-grotesk), sans-serif",
               fontWeight: 800,
               fontSize: "clamp(1.05rem, 4.5vw, 1.25rem)",
               color: "var(--text-primary)",
@@ -91,7 +91,7 @@ export default function Navbar() {
               fontSize: "0.85rem",
               fontWeight: 600,
               textDecoration: "none",
-              fontFamily: "'Space Grotesk', sans-serif",
+              fontFamily: "var(--font-space-grotesk), sans-serif",
             }}
           >
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">

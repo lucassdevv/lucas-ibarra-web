@@ -118,7 +118,7 @@ function ProjectCard({ project, reversed }: { project: typeof projects[0]; rever
             >
               <Image
                 src={img}
-                alt="Thumbnail"
+                alt={`Miniatura del proyecto ${project.title} - Imagen ${i + 1}`}
                 fill
                 style={{ objectFit: "cover", objectPosition: "top" }}
                 sizes="80px"

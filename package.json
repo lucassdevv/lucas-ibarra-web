@@ -2,6 +2,8 @@
   "name": "lucas-ibarra-web",
   "version": "1.0.0",
   "private": true,
+  "description": "Portafolio profesional y sitio web de Lucas Ibarra - Soluciones Digitales",
+  "author": "Lucas Ibarra <hola@lucasibarra.cl>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
