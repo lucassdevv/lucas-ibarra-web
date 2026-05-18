@@ -47,7 +47,7 @@ const projects = [
   }
 ];
 
-const WA_NUMBER = "56912345678";
+const WA_NUMBER = "56942836741";
 const WA_URL = `https://wa.me/${WA_NUMBER}?text=Hola%20Lucas%2C%20vi%20tu%20portfolio%20y%20me%20gustar%C3%ADa%20cotizar%20un%20proyecto.`;
 
 function ProjectCard({ project, reversed }: { project: typeof projects[0]; reversed?: boolean }) {

@@ -1,6 +1,6 @@
 "use client";
 
-const WA_NUMBER = "56912345678";
+const WA_NUMBER = "56942836741";
 const WA_URL = `https://wa.me/${WA_NUMBER}?text=Hola%20Lucas%2C%20quiero%20hablar%20sobre%20mi%20proyecto%20digital.`;
 
 const contactItems = [
@@ -22,8 +22,8 @@ const contactItems = [
       </svg>
     ),
     label: "Email",
-    value: "hola@lucasibarra.cl",
-    href: "mailto:hola@lucasibarra.cl",
+    value: "libarra.vnb@gmail.com",
+    href: "mailto:libarra.vnb@gmail.com",
   },
   {
     icon: (
@@ -32,7 +32,7 @@ const contactItems = [
       </svg>
     ),
     label: "WhatsApp",
-    value: "+56 9 1234 5678",
+    value: "+56 9 4283 6741",
     href: WA_URL,
   },
 ];

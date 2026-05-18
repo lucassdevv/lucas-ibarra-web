@@ -1,6 +1,6 @@
 "use client";
 
-const WA_NUMBER = "56912345678";
+const WA_NUMBER = "56942836741";
 const WA_URL = `https://wa.me/${WA_NUMBER}?text=Hola%20Lucas%2C%20quiero%20hablar%20sobre%20mi%20proyecto%20digital.`;
 
 export default function Hero() {
@@ -129,27 +129,6 @@ export default function Hero() {
                 <path d="M7 17L17 7M17 7H7M17 7v10" />
               </svg>
             </a>
-          </div>
-
-          {/* Stats row */}
-          <div style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(130px, 1fr))",
-            gap: "24px",
-            marginTop: "64px",
-          }} className="stats-row">
-            {[
-              { value: "<1.5s", label: "Velocidad" },
-              { value: "100%", label: "Digitalización" },
-              { value: "30min", label: "MVP Récord" },
-            ].map((stat) => (
-              <div key={stat.label} style={{ textAlign: "center" }}>
-                <div className="stat-number" style={{ fontSize: "clamp(1.8rem, 6vw, 2.4rem)" }}>{stat.value}</div>
-                <div style={{ fontSize: "0.6rem", color: "var(--text-muted)", marginTop: "8px", fontWeight: 700, letterSpacing: "0.06em", textTransform: "uppercase" }}>
-                  {stat.label}
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </div>

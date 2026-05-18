@@ -24,4 +24,4 @@ El sitio está construido con las mejores prácticas de rendimiento moderno:
 - **Despliegue**: [Vercel](https://vercel.com/) Edge Network
 
 ---
-*Si quieres saber más sobre mi trabajo, visita [lucasibarra.cl](https://lucasibarra.cl) o contáctame directamente a hola@lucasibarra.cl*
+*Si quieres saber más sobre mi trabajo, visita [lucasibarra.cl](https://lucasibarra.cl) o contáctame directamente a libarra.vnb@gmail.com*

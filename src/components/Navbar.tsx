@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 
-const WA_NUMBER = "56912345678"; 
+const WA_NUMBER = "56942836741"; 
 const WA_URL = `https://wa.me/${WA_NUMBER}?text=Hola%20Lucas%2C%20me%20interesa%20una%20auditor%C3%ADa%20gratis%20para%20mi%20negocio.`;
 
 export default function Navbar() {
