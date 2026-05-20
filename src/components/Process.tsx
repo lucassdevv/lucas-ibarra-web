@@ -44,12 +44,7 @@ export default function Process() {
           </p>
         </div>
 
-        <div style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-          gap: "32px",
-          position: "relative"
-        }}>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" style={{ position: "relative" }}>
           {steps.map((step, i) => (
             <div key={i} className="glass-card" style={{ padding: "40px 32px", position: "relative", overflow: "hidden" }}>
               {/* Background Number */}

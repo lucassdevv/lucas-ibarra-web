@@ -68,6 +68,7 @@ function ProjectCard({ project, reversed }: { project: typeof projects[0]; rever
       <div className="project-media" style={{ width: "100%" }}>
         {/* Main image container */}
         <div
+          id={`project-main-image-${project.id}`}
           className="project-img-wrapper"
           style={{ 
             marginBottom: "16px", 
@@ -88,17 +89,25 @@ function ProjectCard({ project, reversed }: { project: typeof projects[0]; rever
         </div>
 
         {/* Thumbnail strip */}
-        <div style={{
-          display: "flex",
-          gap: "10px",
-          overflowX: "auto",
-          paddingBottom: "12px",
-          scrollSnapType: "x mandatory",
-          scrollbarWidth: "none",
-        }} className="no-scrollbar">
+        <div 
+          role="tablist"
+          aria-label={`Imágenes del proyecto ${project.title}`}
+          style={{
+            display: "flex",
+            gap: "10px",
+            overflowX: "auto",
+            paddingBottom: "12px",
+            scrollSnapType: "x mandatory",
+            scrollbarWidth: "none",
+          }} 
+          className="no-scrollbar"
+        >
           {project.images.map((img, i) => (
             <button
               key={i}
+              role="tab"
+              aria-selected={i === activeImg}
+              aria-controls={`project-main-image-${project.id}`}
               onClick={() => setActiveImg(i)}
               style={{
                 flexShrink: 0,

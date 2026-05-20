@@ -52,11 +52,7 @@ export default function Services() {
         </div>
 
         {/* Services Grid */}
-        <div style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
-          gap: "24px"
-        }}>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service) => (
             <div key={service.id} className="glass-card" style={{ padding: "40px 32px", display: "flex", flexDirection: "column" }}>
               <div style={{

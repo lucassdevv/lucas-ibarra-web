@@ -32,26 +32,9 @@ export default function AboutMe() {
           alignItems: "center"
         }}>
           {/* Photo/Avatar Side */}
-          <div style={{ position: "relative", width: "100%", aspectRatio: "1/1", maxWidth: "400px", margin: "0 auto" }}>
-            <div style={{
-              position: "absolute",
-              inset: "-10px",
-              background: "linear-gradient(135deg, var(--accent), var(--accent-bright))",
-              borderRadius: "24px",
-              opacity: 0.15,
-              filter: "blur(20px)",
-              zIndex: 0
-            }} />
-            <div style={{
-              position: "relative",
-              width: "100%",
-              height: "100%",
-              borderRadius: "20px",
-              overflow: "hidden",
-              border: "1px solid var(--glass-border)",
-              zIndex: 1,
-              background: "var(--bg-elevated)"
-            }}>
+          <div className="portrait-wrapper">
+            <div className="portrait-glow" />
+            <div className="portrait-card">
               <Image 
                 src="/profile/lucas-edited.webp" 
                 alt="Lucas Ibarra"

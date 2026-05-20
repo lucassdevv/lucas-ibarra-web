@@ -51,20 +51,31 @@ export default function FAQ() {
                 style={{ 
                   padding: "0", 
                   overflow: "hidden", 
-                  cursor: "pointer",
                   border: isOpen ? "1px solid var(--border-hover)" : "1px solid var(--glass-border)",
                 }}
-                onClick={() => setOpenIndex(isOpen ? null : i)}
               >
-                <div style={{
-                  padding: "24px",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "space-between",
-                  gap: "16px",
-                  background: isOpen ? "rgba(59,130,246,0.05)" : "transparent"
-                }}>
-                  <h3 style={{
+                <button
+                  id={`faq-btn-${i}`}
+                  aria-expanded={isOpen}
+                  aria-controls={`faq-answer-${i}`}
+                  onClick={() => setOpenIndex(isOpen ? null : i)}
+                  style={{
+                    width: "100%",
+                    textAlign: "left",
+                    background: isOpen ? "rgba(59,130,246,0.05)" : "transparent",
+                    border: "none",
+                    outline: "none",
+                    padding: "24px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "space-between",
+                    gap: "16px",
+                    cursor: "pointer",
+                    fontFamily: "inherit",
+                    transition: "background 0.2s"
+                  }}
+                >
+                  <span style={{
                     fontSize: "1.1rem",
                     fontWeight: 700,
                     color: isOpen ? "var(--text-primary)" : "var(--text-secondary)",
@@ -72,7 +83,7 @@ export default function FAQ() {
                     transition: "color 0.2s"
                   }}>
                     {faq.q}
-                  </h3>
+                  </span>
                   <ChevronDown 
                     size={20} 
                     style={{ 
@@ -82,14 +93,19 @@ export default function FAQ() {
                       flexShrink: 0
                     }} 
                   />
-                </div>
+                </button>
                 
-                <div style={{
-                  maxHeight: isOpen ? "500px" : "0",
-                  opacity: isOpen ? 1 : 0,
-                  transition: "all 0.3s ease",
-                  overflow: "hidden"
-                }}>
+                <div 
+                  id={`faq-answer-${i}`}
+                  role="region"
+                  aria-labelledby={`faq-btn-${i}`}
+                  style={{
+                    maxHeight: isOpen ? "500px" : "0",
+                    opacity: isOpen ? 1 : 0,
+                    transition: "all 0.3s ease",
+                    overflow: "hidden"
+                  }}
+                >
                   <p style={{
                     padding: "0 24px 24px",
                     color: "var(--text-secondary)",
